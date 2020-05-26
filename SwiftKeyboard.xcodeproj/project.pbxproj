@@ -13,6 +13,7 @@
 		8B9CB16E247CC1DA003ACA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9CB16C247CC1DA003ACA8C /* Main.storyboard */; };
 		8B9CB170247CC1DE003ACA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9CB16F247CC1DE003ACA8C /* Assets.xcassets */; };
 		8B9CB173247CC1DE003ACA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9CB171247CC1DE003ACA8C /* LaunchScreen.storyboard */; };
+		8B9CB17C247CC57E003ACA8C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CB17B247CC57E003ACA8C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B9CB16F247CC1DE003ACA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B9CB172247CC1DE003ACA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9CB174247CC1DE003ACA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9CB17B247CC57E003ACA8C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9CB17C247CC57E003ACA8C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				8B9CB165247CC1DA003ACA8C /* SwiftKeyboard */,
 				8B9CB164247CC1DA003ACA8C /* Products */,
+				8B9CB17A247CC57E003ACA8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				8B9CB174247CC1DE003ACA8C /* Info.plist */,
 			);
 			path = SwiftKeyboard;
+			sourceTree = "<group>";
+		};
+		8B9CB17A247CC57E003ACA8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9CB17B247CC57E003ACA8C /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
